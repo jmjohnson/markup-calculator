@@ -1,0 +1,20 @@
+{
+  "name": "markup_calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "markup_calculator.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "jeff johnson",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "jasmine": "^2.6.0",
+    "jasmine-core": "^2.6.4",
+    "jasmine-es6": "^0.4.0",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-jasmine": "^1.1.0"
+  }
+}
