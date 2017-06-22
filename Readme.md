@@ -1,9 +1,9 @@
-## Runtime version
+## Runtime versions
 npm: 3.10.8
 node: v6.9.1
 
 ## Install
-`npm install`
+Clone the repository, and run `npm install` in the root directory.
 
 ## Test
-`npm test`
+Run `npm test` in the root directory.
