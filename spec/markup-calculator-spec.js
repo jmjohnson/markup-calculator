@@ -33,5 +33,14 @@ describe("Markup business logic", () => {
     let final_price = calculator.calculatePrice(base_cost, num_people, category);
     expect(final_price).toBe(13707.63);
   });
+
+  it("should not crash if there's no category.", () => {
+    let base_cost = 12456.95;
+    let num_people = 4;
+    let category = undefined;
+
+    let final_price = calculator.calculatePrice(base_cost, num_people, category);
+    expect(final_price).toBe(13707.63);
+  });
 });
 
